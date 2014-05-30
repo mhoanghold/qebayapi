@@ -7,15 +7,15 @@ eBay Trading API support xml and soap. This implementation use xml interface. It
 
 Just one call now.
 
-var ebayapi = require("qebayapi");
+    var ebayapi = require("qebayapi");
+    
+    var options = {appName: '...','appCert':'...','devName':'...','callname':'GetItem','requestJSON':{'ItemID':'341341341'}, parseMode: 'json' };
 
-var options = {appName: '...','appCert':'...','devName':'...','callname':'GetItem','requestJSON':{'ItemID':'341341341'}, parseMode: 'json' };
-
-ebayapi.TradingApi(options)
-.then(function(response) {
-  console.log(response.response.Ack);
-  console.log('response': response.response);
-});
+    ebayapi.TradingApi(options)
+    .then(function(response) {
+      console.log(response.response.Ack);
+      console.log('response': response.response);
+    });
 
 
 It use q-io, so it is almost asynchronous, something could be improved in this field for request xml creation phase.
