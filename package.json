@@ -1,0 +1,23 @@
+{
+  "name": "qebayapi",
+  "version": "0.1.0",
+  "description": "promise based ebay trading api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "keywords": [
+    "ebay",
+    "q",
+    "promise"
+  ],
+  "author": "Daniele Cruciani <daniele@smartango.com>",
+  "license": "ISC",
+  "dependencies": {
+    "q": "^1.0.1",
+    "q-io": "^1.11.0",
+    "xmldom": "*",
+    "xml2js": "*",
+    "js2xmlparser": "*"
+  }
+}

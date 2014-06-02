@@ -1,0 +1,4 @@
+
+Create a app-credential.json file with your application credential for testing a real call
+
+see app-credential-ex.js for the format.
