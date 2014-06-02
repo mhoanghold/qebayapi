@@ -12,7 +12,7 @@
     "promise"
   ],
   "author": "Daniele Cruciani <daniele@smartango.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "q": "^1.0.1",
     "q-io": "^1.11.0",
