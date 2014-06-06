@@ -12,6 +12,10 @@
     "promise"
   ],
   "author": "Daniele Cruciani <daniele@smartango.com>",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/danielecr/qebayapi.git"
+  },
   "license": "MIT",
   "dependencies": {
     "q": "^1.0.1",
