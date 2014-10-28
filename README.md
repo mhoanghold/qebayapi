@@ -20,10 +20,12 @@ Just one call now.
 
 It use q-io, so it is almost asynchronous, something could be improved in this field for request xml creation phase.
 
+https://github.com/benbuckman/nodejs-ebay-api is another nodejs module for ebay api interface
+
+qebayapi have a number of advance over nodejs-ebay-api related to ebay trading api
+
 Advance over other implementation
 =================================
-
-https://github.com/benbuckman/nodejs-ebay-api is another nodejs module for ebay api interface
 
 It has a single parameter structured, it means *complete isolation* of every call from each other, ie you can use it concurrently for a number of ebay application (say sandbox and production app), or response type required.
 
