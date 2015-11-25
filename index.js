@@ -122,6 +122,7 @@ var createTradingApiRequest = function (opts) {
 		} else {
 			reqOption.url = tradingUrl.production;
 		}
+		reqOption.ssl = true;
 		var stream = BufferStream(new Buffer(opts.builtXmlRequest, "utf-8"), "utf-8");
 		reqOption.body =stream;
 		return Q(reqOption);
