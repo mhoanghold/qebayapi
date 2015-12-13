@@ -13,15 +13,15 @@
   ],
   "author": "Daniele Cruciani <daniele@smartango.com>",
   "repository": {
-     "type": "git",
-     "url": "https://github.com/danielecr/qebayapi.git"
+    "type": "git",
+    "url": "https://github.com/danielecr/qebayapi.git"
   },
   "license": "MIT",
   "dependencies": {
+    "js2xmlparser": "*",
     "q": "^1.0.1",
-    "q-io": "^1.11.0",
-    "xmldom": "*",
+    "q-io": "git://github.com/mhoanghold/q-io.git",
     "xml2js": "*",
-    "js2xmlparser": "*"
+    "xmldom": "*"
   }
 }
